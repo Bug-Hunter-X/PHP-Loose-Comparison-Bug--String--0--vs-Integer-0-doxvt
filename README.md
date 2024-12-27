@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in PHP related to loose comparison. The script `bug.php` showcases the issue where a string '0' is considered equal to an integer 0 using the loose comparison operator (`==`). The solution `bugSolution.php` demonstrates how to avoid this pitfall using strict comparison (`===`).
